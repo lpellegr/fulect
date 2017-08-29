@@ -1,10 +1,10 @@
 {
   "name": "@noticeable/fulect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple utility functions to wait for all promises, all fulfilled promise values or all rejected promise reasons.",
   "main": "index.js",
   "engines": {
-    "node": ">=6.11.2"
+    "node": ">=6.11.1"
   },
   "scripts": {
     "test": "mocha --reporter spec"
