@@ -1,0 +1,32 @@
+{
+  "name": "@noticeable/fulect",
+  "version": "1.0.0",
+  "description": "Simple utility functions to wait for all promises, all fulfilled promise values or all rejected promise reasons.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.11.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpellegr/fulect.git"
+  },
+  "keywords": [
+    "nodejs",
+    "es6",
+    "promises"
+  ],
+  "author": "Laurent Pellegrino <laurent.pellegrino@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpellegr/fulect/issues"
+  },
+  "homepage": "https://github.com/lpellegr/fulect#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.0"
+  }
+}
